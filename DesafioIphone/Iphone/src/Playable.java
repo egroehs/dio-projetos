@@ -2,6 +2,6 @@
 public interface Playable {
     void play();
     void pause();
-    void stop();
+    void selectMusic(String music);
 }
 

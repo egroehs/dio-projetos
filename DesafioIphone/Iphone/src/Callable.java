@@ -1,6 +1,8 @@
 public interface Callable {
 
-    void makeCall(String number);
-    void endCall();
+    void ligar(String numero);
+    void atender();
+    void iniciarCorreioVoz();
+
     
 } 

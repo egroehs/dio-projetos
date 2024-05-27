@@ -1,7 +1,7 @@
 public interface Browsable {
 
-    void browse(String url);
-    void openTad(String url);
-    void closeTab();
+    void exibirPagina(String url);
+    void adicionarNovaAba();
+    void atualizarPagina();
     
 } 
