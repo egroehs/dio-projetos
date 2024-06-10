@@ -4,6 +4,15 @@ public class Banco {
 
 	private String nome;
 	private List<Conta> contas;
+	private List<Cliente> clientes;
+
+    // other methods
+
+    public void imprimirTodosOsClientes() {
+        for (Cliente cliente : clientes) {
+            System.out.println("Todos clientes:" + cliente);
+        }
+	}
 
 	public String getNome() {
 		return nome;
